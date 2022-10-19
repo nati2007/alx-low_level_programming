@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * _abs - Entry point
+ * @n: n is ana integer
+ * Description: prints the value of an integer
+ * Return: int
+ */
+
+int _abs(int n)
+{
+	if (n > 0)
+	{
+		return (0);
+	}
+	else if (n < 0)
+	{
+		return (-n);
+	}
+	else
+	{
+		return (0);
+	}
+}
